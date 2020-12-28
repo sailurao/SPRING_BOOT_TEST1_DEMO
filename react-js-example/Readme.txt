@@ -10,4 +10,6 @@ DOCKERIZING INSTRUCTIONS
 
 docker build -f Dockerfile -t react-example1 .
 
+docker tag react-example1 naga1972/react-example1
 
+docker push naga1972/react-example1
